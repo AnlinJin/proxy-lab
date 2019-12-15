@@ -6,7 +6,7 @@ The web proxy will always send these headers to the server by default.
 - Connection: close
 - Proxy-Connection: close
 
-The proxy’s request line will always ends with HTTP/1.0.
+The proxy’s request line will always end with HTTP/1.0.
 ## Parameter
 The web proxy listens on a port for upcoming HTTP packets. The port number can be determined by the user. For example 
 ```
