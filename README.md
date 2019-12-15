@@ -7,6 +7,12 @@ The web proxy will always send these headers to the server by default
 - Proxy-Connection: close
 
 The proxy’s request line will always end with HTTP/1.0.
+The proxy would send the following header for *Host* by default:
+```
+Host: www.cmu.edu
+```
+It is possible that web browsers will attach their own Host headers to their HTTP requests. If that is
+the case, the proxy will use the same *Host* header as the browser.
 ## Port Numbers
 The web proxy listens on a port for upcoming HTTP packets. The port number can be determined by the user. For example 
 ```
