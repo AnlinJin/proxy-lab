@@ -5,6 +5,7 @@ The web proxy will always send these headers to the server by default.
 - User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3)Gecko/20120305 Firefox/10.0.3
 - Connection: close
 - Proxy-Connection: close
+
 The proxy’s request line will always ends with HTTP/1.0.
 ## Parameter
 The web proxy listens on a port for upcoming HTTP packets. The port number can be determined by the user. For example 
